@@ -1,5 +1,5 @@
 # Genetic_dominationCovering
-the queens domination problem stands as a captivating and challenging task. The objective lies in determining the minimum number of queens required to dominate an n×n chessboard. Domination, in this context, implies that every square on the board is either occupied by a queen or directly threatened by one.
+the domination covering problem objective is finding the minimum number of queens that can cover a chessboard and have the least amount of threats to eachother
 The genetic algorithm implemented in this project uses the following steps:
   1:  Generate an initial population of chromosomes. A chromosome is a representation of a solution to the N-queens problem. In this case, a chromosome is a list of n integers, where each integer represents the row on which a queen is placed.
   2:  Evaluate the fitness of each chromosome. The fitness of a chromosome is a measure of how good the solution represented by the chromosome is. In this case, the fitness of a chromosome is the number of pairs of queens that are attacking each other.
